@@ -1,9 +1,16 @@
 header{
     background-color: #F3A683;
     padding: 20px;
-    height: 118px;
 }
 header h1{
     color: black;
     text-align: center;
+    font-size: 3.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+ul.options{
+    white-space: nowrap;
+}
+ul.options li{
+    display: inline;
 }

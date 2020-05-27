@@ -1,3 +1,8 @@
+body, ul, li, h1,a{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 header{
     background-color: #F3A683;
     padding: 20px;
@@ -8,9 +13,32 @@ header h1{
     font-size: 3.5em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 }
-ul.options{
-    white-space: nowrap;
+nav.options{
+    background-color: #e15f41;
+    padding: 30px;
+    position: sticky;
+    top: 100px;
 }
-ul.options li{
-    display: inline;
+nav.options ul{
+    white-space: nowrap;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+nav.options li{
+    display: inline-block;
+    padding: 20px;
+    width: 35%;
+    text-decoration: none;
+}
+article{
+    background-color: #ECECEC;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 7px;
+}
+article h2{
+    text-align: center;
+}
+article p{
+    text-align: center;
 }

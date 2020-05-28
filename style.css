@@ -3,9 +3,12 @@ body, ul, li, h1,a{
     padding: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+body{
+    background-color: #f7d79480;
+}
 header{
     background-color: #F3A683;
-    padding: 20px;
+    padding: 40px;
 }
 header h1{
     color: black;
@@ -15,30 +18,57 @@ header h1{
 }
 nav.options{
     background-color: #e15f41;
-    padding: 30px;
+    padding: 2px;
     position: sticky;
-    top: 100px;
+    top: 0;
 }
 nav.options ul{
     white-space: nowrap;
-    max-width: 1500px;
-    margin: 0 auto;
+    max-width: 100%;
 }
 nav.options li{
     display: inline-block;
     padding: 20px;
-    width: 35%;
-    text-decoration: none;
+    width: 30%;
+    text-align: center;
+    font-size: 2em;
 }
-article{
+nav.options a{
+    text-decoration: none;
+    color: black;
+}
+article.atention{
     background-color: #ECECEC;
     border-radius: 20px;
     padding: 20px;
     margin: 7px;
 }
-article h2{
+article.atention h2{
     text-align: center;
 }
-article p{
+article.atention p{
+    text-align: center;
+}
+section{
+    display: inline-block;
+    background-color: #F5CD79;
+    position: abslute;
+    border-radius: 7px;
+}
+section a{
+    text-decoration: none;
+    color: black;
+}
+section li{
+    padding: 1.5em;
+}
+section article ul li{
+    text-decoration: none;
+    
+}
+article{
+    display: inline-block;
+}
+article h2{
     text-align: center;
 }

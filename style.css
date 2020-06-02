@@ -32,6 +32,10 @@ nav.options li{
     text-align: center;
     font-size: 2em;
 }
+nav.options a:focus{
+    text-decoration: underline;
+    color: #596275;
+}
 nav.options a{
     text-decoration: none;
     color: black;
@@ -95,18 +99,34 @@ footer p{
     width: 50%;
     margin: 20px 0;
 }
+.images li span{
+    position: relative;
+    bottom: 25px;
+    left: -10px;
+}
 .images li img{
     max-width: 60px;
     border-radius: 20%;
 }
 form{
     text-align: center;
-    font-size: 23px;
+    font-size: 25px;
 }
-input{
+input.email{
     margin: 20px 0;
-    padding: 10px 20px;
-    font-size: 15px;
-    border-radius: 20px;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 25px;
     background-color: #C4C4C4;
+    color: gray;
+    border: 4px solid #C4C4C4;
+}
+input.receber{
+    margin: 10px 0;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: #596275;
+    color: black;
+    border: 4px solid #596275;
 }

@@ -32,13 +32,13 @@ nav.options li{
     text-align: center;
     font-size: 2em;
 }
-nav.options a:focus{
-    text-decoration: underline;
-    color: #596275;
-}
 nav.options a{
-    text-decoration: none;
     color: black;
+    text-decoration: none;
+}
+nav.options a.home, nav.options a.servicos, nav.options a.contact{
+    text-decoration: underline;
+    color: #303952;
 }
 article.atention{
     background-color: #ECECEC;
@@ -96,13 +96,13 @@ footer p{
 }
 .images li{
     display: block;
-    width: 50%;
     margin: 20px 0;
 }
 .images li span{
     position: relative;
     bottom: 25px;
-    left: -10px;
+    left: 10px;
+    z-index: -1;
 }
 .images li img{
     max-width: 60px;
@@ -129,4 +129,19 @@ input.receber{
     background-color: #596275;
     color: black;
     border: 4px solid #596275;
+}
+.images2{
+    text-align: right;
+    white-space: nowrap;
+}
+.images2 li{
+    display: block;
+    margin: 20px 45px;
+}
+.images2 li img{
+    max-width: 60px;
+    border-radius: 20%;
+}
+.images2 li span{
+    right: 10px;
 }

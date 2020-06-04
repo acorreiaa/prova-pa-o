@@ -1,0 +1,114 @@
+GitHub 
+O lugar onde guarda seus códigos. diferencial- várias empresas guardam nele.pode deixar privado ou píublico.
+é um código que vai ficar na nuvem. 
+rede social dos programadores
+se eu der git "enter" aparece tudo o que o git pode fazer.
+ctrl + l = apaga tudo
+git bash tem os mesmos comandos que o linux
+l + s = listar
+letras são minúsculas. 
+Armazenar/salvar código de página.
+Arquivos estáticos: html, css, JavaScript, imagens, ShockWaves  
+Criar reposutório: Uma pasta onde eu vou poder armazenar meus códigos.
+ctrl + s =salvar
+cd = navegar entre pastas 
+cd.. = voltar
+shift + insert = colar
+git add . git comit git push = as três fases para mandar pro github
+HTML = Hyper Text Markup Language 
+html = estrutura da página
+css = desing da página
+JavaScript = ações
+Atributo = característica a mais da tag
+Class = atributo global 
+atributo = "valor do atributo"
+; = fim doque eu quero dizer
+<em> itálico 
+Pode ter tag dentro de tag.
+<strong> em negrito
+<small></small> = menor
+<mark></mark> = marca-texto
+<sub></sub> = palavra em baixo
+<sup></sup> palavra em cima
+<pre></pre> = maquina de escrever(de código).
+..=voltar"uma navegação entre pastas"
+<ul> = não ordenado(com bolinha)
+<ol> = ordenado (numerado)
+<br> = quebrar a linha "dar enter"
+<hr> = colcar linha divisória
+alt+shift+f = idealiza tudo
+using style atributo
+inline style
+
+<style>
+    #navigation a{
+        color: red
+    }
+</style>
+HTMLhypertextmakeruplanguage
+CSS=cascading style sheets
+
+<label for="username">enter username:</label>
+<input type="text" id="username" placeholder="ex.Laura" required>
+<input type="email"
+<label for="password">
+<input type="radio"
+
+alt+shift+f = identar tudo
+Selector= o que estará aplicando ao css(o que vem antes da chave{})
+para abrir o link em outra página=target="_blank"
+element-1
+div{
+    color: lightcoral;
+    border: 1px solid grey;
+    margin: 40px;
+    font-weight: bold;
+}
+FORMULÁRIO:
+    <form>
+        <label for="username">enter username:</label>
+        <input type="text" id="username" placeholder="ex.Laura" required>
+        <br><br>
+        <label for="email">enter email:</label>
+        <input type="email" id="email"placeholder="example@gmail.com"required>
+        <br><br>
+        <label for="password">password:</label>
+        <input type="password" id="password"placeholder="chose your password..."required>
+
+        <p>Select your age:</p>
+
+        <input type="radio" name="age" value="0-25" id="option-1">
+        <label for="option-1">0-25</label>
+        <input type="radio" name="age" value="26-50" id="option-2">
+        <label for="option-2">26-50</label>
+        <input type="radio" name="age" value="51+" id="option-3">
+        <label for="option-3">51+</label>
+
+        <br><br>
+
+        <label for="question">Security question:</label>
+        <select name="question" id="question">
+            <option value="q1">What is your favorite color?</option>
+            <option value="q2">What is your favorite food?</option>
+            <option value="q3">Who is your best friend of your child</option>
+        </select>
+
+        <br><br>
+        
+        <label for="answer">Here your answer:</label>
+        <input type="text" id="answer" name="answer">
+
+        <br><br>
+
+        <label for="">Your bio:</label><br>
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="write about you..."></textarea>
+
+        <input type="submit" value="submit the form">
+    </form>
+<nav> tag para navegar"navegar entre páginas"
+nowrap= não deixa ir pra próxima linha
+pseudo class: :hover :focus :valid :active...
+a display inline impossibilita de nós alterarmos a largura(widht) e a altura(height), margin: top e bottom
+    hover: passa por cima
+    focus: vc clica
+    active: clica e segura

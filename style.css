@@ -95,8 +95,8 @@ footer p{
     white-space: nowrap;
 }
 .images li{
-    display: block;
     margin: 20px 5px;
+    display: block;
 }
 .images li span{
     position: relative;
@@ -121,6 +121,7 @@ input.email{
     background-color: #C4C4C4;
     color: gray;
     border: 4px solid #C4C4C4;
+    outline: none;
 }
 input.receber{
     margin: 10px 0;
@@ -130,6 +131,7 @@ input.receber{
     background-color: #596275;
     color: black;
     border: 4px solid #596275;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
 }
 .images2{
     text-align: center;
@@ -150,4 +152,18 @@ input.receber{
     position: relative;
     bottom: 22px;
     left: 7px;
+}
+/********serviços********/
+section.fotos{
+    text-align: center;
+}
+section.fotos li{
+    display: inline-block;
+    margin: 20px 5px; /*preciso deixar 3 por fileira*/
+}
+section.fotos li img{
+    width: 354px;
+    height: 219px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
